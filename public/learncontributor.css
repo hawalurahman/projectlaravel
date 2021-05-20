@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.footer {
+    text-align: center;
+}
+
+.Logo img {
+    width: 200px;
+    padding: 5px;
+}
+
+.container {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.index>p {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.index {
+    width: 400px;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: auto;
+    float: right;
+}
+
+.index>.judul {
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.buttons>button {
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.gambarindex {
+    padding-top: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.gambarindex>img {
+    margin-top: 10px;
+    max-width: 95%;
+}
+
+.box-index {
+    width: 800px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.container {
+    padding-top: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+.content {
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#text {
+    padding: 50px;
+    position: absolute;
+}
+
+.content img {
+    max-width: 800px;
+}
+
+#promotion {
+    padding: 50px;
+    height: fit-content;
+    background-color: white;
+}
+
+#offers {
+    display: flex;
+    width: 100%;
+}
+
+#o1 {
+    width: 300px;
+    padding: 10px;
+    position: relative;
+}
+
+#offers div:first-of-type {
+    padding: 40px;
+    width: 360px;
+    background-color: white;
+}
+
+#offers div:last-of-type,
+#offers div:nth-of-type(2) {
+    padding: 40px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+#facilities {
+    display: flex;
+    height: 200px;
+}
+
+#facilities div:nth-child(1) {
+    background-color: rgb(62, 202, 62);
+}
+
+#facilities div:nth-child(2) {
+    background-color: rgb(95, 214, 95);
+}
+
+#facilities div:nth-child(3) {
+    background-color: rgb(118, 231, 118);
+}
+
+#o1 button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 25px;
+    left: 65px;
+}
+
+#fac {
+    padding: 50px;
+}
+
+#find h1 {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(122, 230, 79);
+}
+
+#signinbtn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+    margin: auto;
+    background-color: rgb(68, 107, 68);
+}
+
+#signinbtn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(142, 255, 142);
+}
+
+.container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(142, 255, 142);
+}
+
+.content {
+    color: white;
+}

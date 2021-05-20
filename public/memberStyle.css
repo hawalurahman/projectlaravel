@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    background-color:#A7EAFF;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;   
+    padding: 30px;
+    font-size: 16px;
+    
+}
+nav ul{
+    
+    float: right;
+}
+nav ul li{
+    display: inline-block; 
+}
+.get{
+    background-color: black;
+    padding:9px 20px;
+    color: white;
+    border-radius: 20px;
+}
+img{
+    width: 180px;
+    margin: 10px;
+    
+}
+.plan{
+    background-color:#A7EAFF;
+    text-align: center;
+    
+    
+}
+.plan h2{
+    font-family: 'Averia Libre', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-left: 340px;
+    margin-right: 340px;
+    margin-bottom: 23px;
+    padding-top: 40px;
+}
+
+.plan a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+   
+}
+
+footer h2{
+    font-family: 'Averia Libre', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-align: center;
+
+ }
+ footer img{
+    display: block;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
+ footer a{
+    font-family: 'Averia Libre', cursive;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-align: center;
+ }
+ 
+ .bagian2 .offer{
+    height: 30px;
+    display: flex;
+    height: 332px;
+    color: white;
+    font-family: 'Averia Libre', cursive;
+    font-size: 50px;
+    font-weight: lighter; 
+    
+}
+.weekly{
+    background-color: #4479FF;
+    width:20%;
+ }   
+ .monthly{
+    background-color: #4479FF;
+    width: 20%;
+ }
+ .annual{
+    background-color: #4479FF;
+    width: 20%;
+ }
+
+.offer{
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+ .offer .weekly{
+     margin-left:100px;
+     margin-right: 150px;
+     border-radius: 30px;
+ }
+ .offer .monthly{
+    border-radius: 30px;
+
+}
+.offer .annual{
+    margin-left:100px;
+    margin-right: 150px;
+    border-radius: 30px;
+}
+.jdl{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Averia Libre', cursive;  
+    color: white;
+}
+
+.price{
+    font-size: 65px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+
+}
+.ket{
+    font-family: 'Inter', sans-serif; 
+    font-size: 13px;
+    padding-top: 30px;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.offer li{
+    list-style: none;
+}
+
+.grey a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 15px;
+    padding:12px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}

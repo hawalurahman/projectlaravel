@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.isi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
+    font-size: 16px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.get {
+    background-color: #ACEF1D;
+    padding: 9px 20px;
+    border-radius: 20px;
+}
+
+img {
+    width: 180px;
+    margin: 10px;
+}
+
+.konten .Bio {
+    margin-right: 250px;
+}
+
+.judul {
+    font-family: 'Averia Libre', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.konten .Bio h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.maskot {
+    margin-right: 150px;
+}
+
+.bagian1 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 120px;
+    color: white;
+}
+
+.pembatas {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    margin-top: 50px;
+}
+
+.bagian2 h1 {
+    color: white;
+    font-family: 'Averia Libre', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left: 120px;
+    color: white;
+}
+
+.bagian2 .fasilitas {
+    display: flex;
+    height: 219px;
+    color: white;
+    font-family: 'Averia Libre', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.artikel {
+    width: 35%;
+}
+
+.music {
+    width: 35%;
+}
+
+.artikel a {
+    text-decoration: none;
+    color: white;
+}
+
+.messages {
+    width: 30%;
+}
+
+.konten1 {
+    margin-top: 50px;
+}
+
+.fasilitas img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.fasilitas {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.fasilitas .artikel .arti {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.fasilitas .music .mus {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+.fasilitas .messages .mes {
+    position: absolute;
+    top: 50%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
+
+.bagian2 .offer {
+    height: 30px;
+    display: flex;
+    height: 332px;
+    color: white;
+    font-family: 'Averia Libre', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.joinus {
+    background-color: #23802C;
+    width: 30%;
+}
+
+.contributor {
+    background-color: #3AA344;
+    width: 35%;
+}
+
+.member {
+    background-color: #42CA4F;
+    width: 35%;
+}
+
+.offer h2 {
+    font-size: 40px;
+    font-family: 'Averia Libre', cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.offer a {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.offer button {
+    border-radius: 10px;
+    margin: auto;
+    outline: none;
+    border: none;
+    margin-left: 35%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.offer p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    line-height: 1.5;
+}
+
+.bagian3 {
+    position: relative;
+    text-align: center;
+}
+
+.bagian3 h2 {
+    color: #ACEF1D;
+    font-family: 'Averia Libre', cursive;
+    font-size: 85px;
+    font-weight: lighter;
+    margin: 125px 20px;
+}
+
+.bagian3 img {
+    top: 0px;
+    right: 100px;
+    position: absolute;
+    width: 40px;
+}
+
+.bagian3 a {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    background-color: #ACEF1D;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+footer h2 {
+    font-family: 'Averia Libre', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    font-family: 'Averia Libre', cursive;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-align: center;
+}

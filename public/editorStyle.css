@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.Logo img {
+    width: 200px;
+    padding: 5px;
+}
+
+.container {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.title,
+.subject,
+.to {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.judul {
+    padding-top: 30px;
+    margin-top: 20px;
+    font-size: 36px;
+    margin-left: 70px;
+    font-weight: 500;
+}
+
+.post {
+    margin-left: 70px;
+}
+
+.post button {
+    border-radius: 20px;
+    padding: 13px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 5px;
+    cursor: pointer;
+    border-style: none;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.post a {
+    padding: 40px;
+    text-decoration: none;
+}
+
+input[name="title"],
+input[name="subject"],
+input[name="to"] {
+    border-radius: 5px;
+    width: 400px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+}
+
+.body {
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.footer {
+    font-size: 10px;
+    opacity: 30%;
+    text-align: center;
+    padding-top: 30px;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+
+/*----------------this is for event--------------------*/
+
+.date {
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.date>label,
+.price>label {
+    display: inline-block;
+    width: 50px;
+}
+
+.date>p,
+.price>p,
+.membership>p {
+    line-height: 2;
+    font-weight: 600;
+}
+
+.date>input,
+.price>input {
+    outline: none;
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.price {
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.membership {
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.membership>label {
+    padding: 10px;
+}
+
+
+/* --------------------- index.html -----------------------------*/
+
+.index>p {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.index {
+    width: 400px;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: auto;
+    float: right;
+}
+
+.index>.judul {
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.buttons>button {
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.gambarindex {
+    padding-top: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.gambarindex>img {
+    margin-top: 10px;
+    max-width: 95%;
+}
+
+.box-index {
+    width: 800px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+}

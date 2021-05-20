@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+     
+.inner{
+    height:80%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+    display: flex   ;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.photo{
+    width: 40%;
+    height: 100%;   
+    padding: 0px 0px 0px 0px;   
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px 0px 0px 20px;
+    object-fit: cover;
+
+}
+.form{
+
+    padding:15px 50px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+        
+    
+}
+form input{
+  
+    width: 290px;
+    height: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-sizing: border-box;
+    /* Drop-shadow */
+    outline:none;
+    
+
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.form input{
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+
+
+.form .or{
+    text-align: center  ;
+}
+
+.title{
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    
+    
+    text-align: center ;  
+    
+}
+
+.subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.google{
+    text-align: center;
+    padding:10px;     
+    
+    
+}
+.google img{
+    float: left ;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    
+
+}
+.google a{
+    text-align: justify;
+    color: white;
+    padding:5px;
+    
+}
+.SignUp button{
+    float: right;
+    border-radius: 20px;
+    padding: 13px 0px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 13px;
+    margin: 0px 1px;
+    cursor: pointer;
+    border-style: none;
+}
+.SignUp a{
+    padding:40px;
+}
+
+.check{
+    padding-top: 8px;  
+}   
+form input{
+    margin: 5px;
+}
+form label{
+    font-size: 13px;
+}
+.formulir{
+    padding-top: 25px;
+}
+.formulir form .SignUp{
+    padding-top: 20px;
+}
+
+
+
+
+body{
+    background-color: #F8F7F7;
+}
+
+
+.box{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+nav{
+    background-color:white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+}
+.Logo img{
+   width: 200px;
+   padding: 5px;
+}

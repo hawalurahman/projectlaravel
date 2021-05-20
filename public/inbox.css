@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.footer {
+    text-align: center;
+}
+
+.Logo img {
+    width: 200px;
+    padding: 5px;
+}
+
+.container {
+    font-weight: 600;
+    width: 800px;
+    margin: auto;
+    padding: 20px 60px;
+    background-color: white;
+}
+
+#welcomefeeds {
+    display: flex;
+    justify-content: space-between;
+}
+
+#welcomefeeds a {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#post {
+    height: fit-content;
+    margin: 20px 0px;
+    display: flex;
+}
+
+#post div:nth-child(1) {
+    width: 200px;
+    margin: 0 20px 0px 0;
+    background: rgb(107, 248, 107);
+    height: 100px;
+    border-radius: 50%;
+}
+
+#nextpg {
+    padding: 50px 0px;
+    height: 100px;
+}
+
+#timeline {
+    display: flex;
+    width: 1080px;
+    margin: auto;
+}
+
+#sidebar {
+    margin-right: 20px;
+    background-color: white;
+    height: fit-content;
+    width: 400px;
+    padding: 20px;
+}
+
+#sidebar a {
+    text-decoration: none;
+}
+
+#sidebar div:nth-child(2) {
+    margin: 30px 0px;
+}

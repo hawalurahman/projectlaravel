@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+nav {
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
+
+.Logo img {
+    width: 200px;
+    padding: 5px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.container {
+    margin-top: 20px;
+    font-weight: 600;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 60px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#welcomefeeds {
+    height: 100px;
+    padding: 20px 0px;
+}
+
+#post {
+    height: fit-content;
+    margin: 20px 0px;
+    display: flex;
+}
+
+#post div:nth-child(1) {
+    width: 600px;
+    margin: 0 20px 0px 0;
+    background: rgb(107, 248, 107);
+    height: auto;
+}
+
+#timeline {
+    display: flex;
+    width: 1080px;
+    margin: auto;
+}
+
+.containermusic {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.musicsection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#music {
+    position: relative;
+}
+
+#textmusic {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 10px;
+}
+
+#imgmusic {
+    background-color: lightgreen;
+    width: 150px;
+    height: 200px;
+}
+
+#highlight {
+    position: relative;
+}
+
+#texthighlight {
+    position: absolute;
+    bottom: 30px;
+    margin: 0px 20px;
+}
+
+#imghighlight {
+    background-color: lightgreen;
+    height: 400px;
+}
+
+#sidebar {
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: white;
+    height: fit-content;
+    width: 400px;
+    padding: 20px;
+}
+
+#sidebar a {
+    text-decoration: none;
+}
+
+#sidebar div:nth-child(2) {
+    margin: 30px 0px;
+}
+
+#postdetail {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.iconify {
+    width: 20px;
+    height: 20px;
+    color: darkgreen;
+}
